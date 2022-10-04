@@ -20,7 +20,7 @@
             </ul>
         </h3>
     </p>
-     <div width="20%" height="500">
+     <div width="20%" height="100">
         <h2>
             Domain: Education
         </h2>
