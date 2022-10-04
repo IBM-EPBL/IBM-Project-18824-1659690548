@@ -20,5 +20,14 @@
             </ul>
         </h3>
     </p>
-    
-<img src= "https://user-images.githubusercontent.com/76608039/193860324-bd346bd4-74dd-4f3f-9492-75ef5a0b3118.jpg"  alt= "Data Sciece" width= "20%" >
+     <div width="20%" height="500">
+        <h2>
+            Domain: Education
+        </h2>
+        <h2>
+            Technologies: Data Science 
+            <img src= "https://user-images.githubusercontent.com/76608039/193860324-bd346bd4-74dd-4f3f-9492-75ef5a0b3118.jpg"  alt= "Data Sciece" width= "100%" >
+            Programming Language: Python
+        </h2>
+        </div>
+
