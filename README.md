@@ -4,8 +4,8 @@
             Project Name: University Admit Eligibility Predictor
         </HEADER>
  <p>
-     <h3>
-            <ul> Team Members: 
+     <h4>   
+            <h3><ul>Team Members: </h3>
                 <li>
                     N.Shabana 
                 </li>
@@ -22,7 +22,7 @@
                     C.H.Janani
                 </li>
             </ul>
-        </h3>
+        </h4>
     </p>
      <div width="20%" height="50">
         <h2>
