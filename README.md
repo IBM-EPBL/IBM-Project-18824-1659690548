@@ -1,9 +1,13 @@
 # IBM-Project-18824-1659690548
+  <body>
+        <HEADER>
+            Project Name: University Admit Eligibility Predictor
+        </HEADER>
  <p>
      <h3>
-            <ul>
+            <ul> Team Members: 
                 <li>
-                    N. Shabana 
+                    N.Shabana 
                 </li>
                 <li>
                     K.Jeevitha
@@ -12,7 +16,7 @@
                     Anjum Fathima 
                 </li>
                 <li>
-                    S. Jothika
+                    S.Jothika
                 </li>
                 <li>
                     C.H.Janani
