@@ -26,8 +26,9 @@
         </h2>
         <h2>
             Technologies: Data Science 
-            <img src= "https://user-images.githubusercontent.com/76608039/193860324-bd346bd4-74dd-4f3f-9492-75ef5a0b3118.jpg"  alt= "Data Sciece" width= "100%" >
-            Programming Language: Python
-        </h2>
+         </h2>
+            <img src= "https://user-images.githubusercontent.com/76608039/193860324-bd346bd4-74dd-4f3f-9492-75ef5a0b3118.jpg"  alt= "Data Sciece" width= "50%" >
+            <h3>Programming Language: Python
+        </h3>
         </div>
 
