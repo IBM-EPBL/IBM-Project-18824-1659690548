@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block title %}
+Predictor
+{% endblock title %}
+{% block body %}
+<section id="predict-page" class="hero-animated">
+        <div class="info">
+          <div class="container" data-aos="fade-up">
+
+            <div class="section-header">
+              <h1>University Admit Eligibility Predictor</h1>
+            </div>
+            <div class="comtainer">
+              <!-- Main Input For Receiving Query to our ML -->
+              <form action="{{ url_for('predict')}}" method="post">
+                <label for="gre_score" class="form-input" >GRE SCore:
+                <input type="text" id="gre_score" name="gre_score" placeholder="GRE Score" required="required" />
+                </label>
+                <br>
+                <label for="toefl_score"  class="form-input" > TOEFL Score: 
+                <input type="text" id="toefl_score" name="toefl_score" placeholder="TOEFL Score" required="required" />       
+                </label>
+                <br>
+                <label for="uni_rating" class="form-input" required="required" />University Rating:
+                <input type="text" id="uni_rating" name="university_rating" placeholder="University Rating" required="required">
+                </label>
+                <br>
+            
+                <label for="sop" class="form-input" >SOP:
+                <input type="text" id="sop" name="sop" placeholder="SOP" required="required" >
+                </label>
+                <br>
+                <label for="lor" class="form-input" >LOR:
+                <input type="text" id="lor" name="lor" placeholder="LOR" required="required" />
+                </label>
+                <br>
+                <label for="cgpa" class="form-input" >CGPA:
+                <input type="text" id="cgpa" name="cgpa" placeholder="CGPA" required="required" /> 
+                </label>
+                  <label for="research" class="form-input" >Research Paper published ?
+                    <br>
+                    <input type="radio" name="research" required value="1">Yes
+                    <input type="radio" name="research" value="0"> No
+                    <br>
+                </div>
+                <button style= "margin: auto 50%"type="submit" class="btn btn-primary btn-block btn-large ">Predict</button>
+
+              </form>
+              <br>
+              <br>
+              {{ prediction_text }}
+          </div>
+        </div>
+</section>
+{% endblock body %}
