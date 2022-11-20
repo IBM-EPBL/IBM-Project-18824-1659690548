@@ -8,6 +8,7 @@
 </div>
 </div>
 <br>
+<hr>
 <p>Under the <strong>Nalaiya Thiran</strong> – an experiential project-based learning program and the guidance of the Industry mentors and 100+ hr training the Project is built.</p>
 <hr>
 
