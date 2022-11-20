@@ -5,8 +5,6 @@ import requests
 app = Flask(__name__)
 
 
-# model = pickletools.load(open('lormodel1.pkl', 'rb'))
-
 @app.route("/")
 def index():
      return render_template("index.html")
@@ -23,8 +21,8 @@ def predict():
             arr.append(float(val))
 
         # Add the API key
-        # API_KEY = "IIvaUjyneyIEuzrlaqfKowecPv76uDlcl7Ogg1AhR7s6"
-        API_KEY = "Nao5NlrxCCWqpmFusPqFp8KCgT66q4gvH2IiJQFq_HcL"
+        # API_KEY = "zzzzzzzzz"
+        API_KEY = "zzzz"
         token_response = requests.post('https://iam.cloud.ibm.com/identity/token', data={
             "apikey": API_KEY,
             "grant_type": 'urn:ibm:params:oauth:grant-type:apikey'
@@ -46,14 +44,11 @@ def predict():
         }
 
         response_scoring = requests.post(
-            # 'https://jp-tok.ml.cloud.ibm.com/ml/v4/deployments/f1ba4fc9-6ec2-48da-aeb6-ca3287d77fed/predictions?version=2022-11-17',
+             
             'https://eu-de.ml.cloud.ibm.com/ml/v4/deployments/9aecac79-02b8-4ad2-955c-ff801c4bc43c/predictions?version=2022-11-17',
             json=payload_scoring,
             headers=header).json()
-
-        print("Scoring response")
-        print(response_scoring)
-
+     
         result = response_scoring['predictions'][0]['values']
 
         if result[0][0] > 0.82:
