@@ -30,6 +30,7 @@ Along with above stuents must also present the
 * SOP -Statement of Purpose ( of 0-5 points)
 * LOR - Letter of Recommendation ( of 0-5 points)
 * CGPA/GPA ( 10 points or 4 points scheme )
+* Research Experience.
 
 Students go through an intensive application process to apply for an international university.Students cannot apply to all universities as it may incurr high cost. Subsequently the requirements and application process of each University are different. Hence, it is prudent thta students apply to those university where their chance of admission is high. To help you we built a predictor tool that finds that chance of admission percentage using your scores.
 
